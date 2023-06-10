@@ -40,7 +40,7 @@ Output: 1<br><br>
 **Code** [Link](https://github.com/Srijana1425/Recursion_Assignment10/blob/main/ans2.js)<br>
 ************************************************************************************************
 **Question 3**<br>
-Given a set represented as a string, write a recursive code to print all subsets of it. The subsets can be printed in any order.<br><br><br>
+Given a set represented as a string, write a recursive code to print all subsets of it. The subsets can be printed in any order.<br>
 **Example 1:**<br>
 Input :  set = “abc”<br>
 Output : { “”, “a”, “b”, “c”, “ab”, “ac”, “bc”, “abc”}<br>
