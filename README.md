@@ -70,55 +70,77 @@ Output :13<br>
 **Code** [Link]()<br>
 ************************************************************************************************
 **Question 5**<br>
-Given an array of integers **arr**, the task is to find maximum element of that array using recursion.<br>
+We are given a string S, we need to find count of all contiguous substrings starting and ending with same character.<br>
 **Example 1:**<br>
-Input : str = "abcd"<br>
-Output :4<br>
+Input  : S = "abcab"<br>
+Output : 7<br>
+There are 15 substrings of "abcab"
+a, ab, abc, abca, abcab, b, bc, bca
+bcab, c, ca, cab, a, ab, b
+Out of the above substrings, there
+are 7 substrings : a, abca, b, bcab,
+c, a and b.<br>
 **Example 2:**<br>
-Input : str = "GEEKSFORGEEKS"<br>
-Output :13<br>
+Input  : S = "aba"<br>
+Output : 4<br>
+The substrings are a, b, a and aba<br><br>
 
 *Answer*<br>
 **Code** [Link]()<br>
 ************************************************************************************************
 **Question 6**<br>
-Given first term (a), common difference (d) and a integer N of the Arithmetic Progression series, the task is to find Nth term of the series.<br>
+The tower of Hanoi is a famous puzzle where we have three rods and N disks. The objective of the puzzle is to move the entire stack to another rod. You are given the number of discs N. Initially, these discs are in the rod 1. You need to print all the steps of discs movement so that all the discs reach the 3rd rod. Also, you need to find the total moves.Note: The discs are arranged such that the top disc is numbered 1 and the bottom-most disc is numbered N. Also, all the discs have different sizes and a bigger disc cannot be put on the top of a smaller disc. Refer the provided link to get a better clarity about the puzzle.<br>
 **Example 1:**<br>
-Input : a = 2 d = 1 N = 5<br>
-Output : 6<br>
-The 5th term of the series is : 6<br>
+Input:N = 2<br>
+Output:<br>
+move disk 1 from rod 1 to rod 2<br>
+move disk 2 from rod 1 to rod 3<br>
+move disk 1 from rod 2 to rod 3<br>
+3<br>
+Explanation:For N=2 , steps will be
+as follows in the example and total
+3 steps will be taken.<br>
+
 **Example 2:**<br>
-Input : a = 5 d = 2 N = 10<br>
-Output : 23<br>
-The 10th term of the series is : 23<br>
+Input:N = 3<br>
+Output:<br>
+move disk 1 from rod 1 to rod 3<br>
+move disk 2 from rod 1 to rod 2<br>
+move disk 1 from rod 3 to rod 2<br>
+move disk 3 from rod 1 to rod 3<br>
+move disk 1 from rod 2 to rod 1<br>
+move disk 2 from rod 2 to rod 3<br>
+move disk 1 from rod 1 to rod 3<br>
+7<br>
+Explanation:For N=3 , steps will be
+as follows in the example and total
+7 steps will be taken.<br><br>
 
 *Answer*<br>
 **Code** [Link]()<br>
 ************************************************************************************************
 **Question 7**<br>
-Given a string S, the task is to write a program to print all permutations of a given string.<br>
+Given a string str, the task is to print all the permutations of str. A permutation is an arrangement of all or part of a set of objects, with regard to the order of the arrangement. For instance, the words ‘bat’ and ‘tab’ represents two distinct permutation (or arrangements) of a similar three letter word.<br>
 **Example 1:**<br>
-***Input:***<br>
-*S = “ABC”*<br>
-***Output:***<br>
-*“ABC”, “ACB”, “BAC”, “BCA”, “CBA”, “CAB”*<br>
+Input: str = “cd”<br>
+Output: cd dc<br>
 **Example 2:**<br>
-***Input:***<br>
-*S = “XY”*<br>
-***Output:***<br>
-*“XY”, “YX”*<br><br>
+Input: str = “abb”<br>
+Output: abb abb bab bba bab bba<br><br>
 
 *Answer*<br>
 **Code** [Link]()<br>
 ************************************************************************************************
 **Question 8**<br>
-Given an array, find a product of all array elements.<br>
+Given a string, count total number of consonants in it. A consonant is an English alphabet character that is not vowel (a, e, i, o and u). Examples of constants are b, c, d, f, and g.<br>
 **Example 1:**<br>
-Input  : arr[] = {1, 2, 3, 4, 5}<br>
-Output : 120<br>
+Input : abc de<br>
+Output : 3<br>
+There are three consonants b, c and d.<br>
+
 **Example 2:**<br>
-Input  : arr[] = {1, 6, 3}<br>
-Output : 18<br><br>
+Input : geeksforgeeks portal<br>
+Output : 12<br><br>
 
 *Answer*<br>
 **Code** [Link]()<br>
